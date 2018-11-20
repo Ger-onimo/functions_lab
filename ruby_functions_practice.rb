@@ -45,19 +45,19 @@ def number_to_full_month_name_9(month_9)
  return month_9
 end
 
-def number_to_short_month_name(shrt_month_1)
+def number_to_short_month_name_1(shrt_month_1)
   shrt_month_1 = "Jan"
   return shrt_month_1
 
 end
 
-def number_to_short_month_name(shrt_month_4)
+def number_to_short_month_name_4(shrt_month_4)
   shrt_month_4 = "Apr"
   return shrt_month_4
 
 end
 
-def number_to_short_month_name(shrt_month_10)
+def number_to_short_month_name_10(shrt_month_10)
   shrt_month_10 = "Oct"
   return shrt_month_10
 end

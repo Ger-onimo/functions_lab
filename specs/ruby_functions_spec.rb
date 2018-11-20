@@ -66,20 +66,20 @@ class FunctionsTest < MiniTest::Test
   end
 
   #def test_substring__month_1()
-  def test_number_to_short_month_name()
-    first_month_string = number_to_short_month_name( 1 )
+  def test_number_to_short_month_name_1()
+    first_month_string = number_to_short_month_name_1( 1 )
     assert_equal( "Jan", first_month_string )
   end
 
   #def test_substring__month_4()
-  def test_number_to_short_month_name()
-    fourth_month_string = number_to_short_month_name( 4 )
+  def test_number_to_short_month_name_4()
+    fourth_month_string = number_to_short_month_name_4( 4 )
     assert_equal( "Apr", fourth_month_string )
   end
 
   # def test_substring__month_10()
-  def test_number_to_short_month_name()
-    tenth_month_string = number_to_short_month_name( 10 )
+  def test_number_to_short_month_name_10()
+    tenth_month_string = number_to_short_month_name_10( 10 )
     assert_equal( "Oct", tenth_month_string )
   end
 
