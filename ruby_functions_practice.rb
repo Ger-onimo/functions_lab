@@ -56,3 +56,8 @@ def number_to_short_month_name(shrt_month_4)
   return shrt_month_4
 
 end
+
+def number_to_short_month_name(shrt_month_10)
+  shrt_month_10 = "Oct"
+  return shrt_month_10
+end
