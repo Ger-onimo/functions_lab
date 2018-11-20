@@ -53,11 +53,12 @@ class FunctionsTest < MiniTest::Test
     assert_equal( "January", result )
   end
 
-  # def test_number_to_full_name__month_3()
-  #   result = number_to_full_month_name( 3 )
-  #   assert_equal( "March", result )
-  # end
-  #
+  #def test_number_to_full_name__month_3() name doesn't match argument call name
+    def test_number_to_full_month_name_3()
+    result = number_to_full_month_name_3( 3 )
+    assert_equal( "March", result )
+  end
+
   # def test_number_to_full_name__month_9()
   #   result = number_to_full_month_name( 9 )
   #   assert_equal( "September", result )
