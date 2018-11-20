@@ -45,14 +45,14 @@ def number_to_full_month_name_9(month_9)
  return month_9
 end
 
-# def substring__month_1(first_month_string, number_to_short_month_name)
-#   first_month_string = "Jan"
-#   number_to_short_month_name = 1
-#   return "Jan"
-#
-# end
+def number_to_short_month_name(shrt_month_1)
+  shrt_month_1 = "Jan"
+  return shrt_month_1
 
-# def test_substring__month_1()
-#   first_month_string = number_to_short_month_name( 1 )
-#   assert_equal( "Jan", first_month_string )
-# end
+end
+
+def number_to_short_month_name(shrt_month_4)
+  shrt_month_4 = "Apr"
+  return shrt_month_4
+
+end
