@@ -41,12 +41,12 @@ class FunctionsTest < MiniTest::Test
     joined_string = join_string( string_1, string_2 )
     assert_equal( "Mary had a little lamb, its fleece was white as snow", joined_string )
   end
+
+  def test_add_string_as_number()
+    add_result = add_string_as_number( "1", "2" )
+    assert_equal( 3, add_result )
+  end
   
-  # def test_add_string_as_number()
-  #   add_result = add_string_as_number( "1", "2" )
-  #   assert_equal( 3, add_result )
-  # end
-  #
   # def test_number_to_full_name__month_1()
   #   result = number_to_full_month_name( 1 )
   #   assert_equal( "January", result )
