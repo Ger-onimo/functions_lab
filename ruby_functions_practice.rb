@@ -61,3 +61,10 @@ def number_to_short_month_name_10(shrt_month_10)
   shrt_month_10 = "Oct"
   return shrt_month_10
 end
+
+#Further
+
+def volume_of_cube(length_of_side, ** 3)
+
+  return  length_of_side ** 3
+end
