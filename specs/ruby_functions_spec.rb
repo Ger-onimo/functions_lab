@@ -53,35 +53,37 @@ class FunctionsTest < MiniTest::Test
     assert_equal( "January", result )
   end
 
+  #full month name can be refactored further
   #def test_number_to_full_name__month_3() name doesn't match argument call name
   def test_number_to_full_month_name()
     result = number_to_full_month_name( 3 )
     assert_equal( "March", result )
   end
-  # #
-  # #def test_number_to_full_name__month_9() name doesn't match argument call name
-  # def test_number_to_full_month_name()
-  #   result = number_to_full_month_name( 9 )
-  #   assert_equal( "September", result )
-  # end
+  #
+  #def test_number_to_full_name__month_9() name doesn't match argument call name
+  def test_number_to_full_month_name()
+    result = number_to_full_month_name( 9 )
+    assert_equal( "September", result )
+  end
 
   #def test_substring__month_1()
-  # def test_number_to_short_month_name_1()
-  #   first_month_string = number_to_short_month_name_1( 1 )
-  #   assert_equal( "Jan", first_month_string )
-  # end
+  def test_number_to_short_month_name()
+    first_month_string = number_to_short_month_name( 1 )
+    assert_equal( "Jan", first_month_string )
+  end
   #
+  # short month name can be refactored further
   # #def test_substring__month_4()
-  # def test_number_to_short_month_name_4()
-  #   fourth_month_string = number_to_short_month_name_4( 4 )
-  #   assert_equal( "Apr", fourth_month_string )
-  # end
+  def test_number_to_short_month_name()
+    fourth_month_string = number_to_short_month_name( 4 )
+    assert_equal( "Apr", fourth_month_string )
+  end
   #
   # # def test_substring__month_10()
-  # def test_number_to_short_month_name_10()
-  #   tenth_month_string = number_to_short_month_name_10( 10 )
-  #   assert_equal( "Oct", tenth_month_string )
-  # end
+  def test_number_to_short_month_name()
+    tenth_month_string = number_to_short_month_name( 10 )
+    assert_equal( "Oct", tenth_month_string )
+  end
 
   # #Further
   #

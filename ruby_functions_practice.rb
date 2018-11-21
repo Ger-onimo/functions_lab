@@ -30,44 +30,29 @@ def add_string_as_number(string_1, string_2)
   return string_1.to_i + string_2.to_i
 end
 
-def number_to_full_month_name(num)
-month = num
+# can be refactored to include all months or a date method - couldn't get that to work!
+def number_to_full_month_name(month_num)
+month = month_num
 case month
-when 1
- return "January"
-
-when 3
- return "March"
+  when 1
+    return "January"
+  when 3
+    return "March"
+  when 9
+    return "September"
+  end
 end
 
+# can be refactored to include all months or a date method - couldn't get that to work!
+def number_to_short_month_name(month_num)
+shrt_month = month_num
+case shrt_month
+  when 1
+   return "Jan"
+ when 10
+   return "Oct"
+  end
 end
-
-# def number_to_full_month_name_3(month_3)
-#   month_3 = "March"
-#  return month_3
-# end
-#
-# def number_to_full_month_name_9(month_9)
-#   month_9 = "September"
-#  return month_9
-# end
-#
-# def number_to_short_month_name_1(shrt_month_1)
-#   shrt_month_1 = "Jan"
-#   return shrt_month_1
-#
-# end
-#
-# def number_to_short_month_name_4(shrt_month_4)
-#   shrt_month_4 = "Apr"
-#   return shrt_month_4
-#
-# end
-#
-# def number_to_short_month_name_10(shrt_month_10)
-#   shrt_month_10 = "Oct"
-#   return shrt_month_10
-# end
 #
 # #Further
 #
