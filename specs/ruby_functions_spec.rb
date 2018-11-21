@@ -48,59 +48,59 @@ class FunctionsTest < MiniTest::Test
   end
 
   # def test_number_to_full_name__month_1() #name doesn't match argument call name
-  def test_number_to_full_month_name_1()
-    result = number_to_full_month_name_1( 1 )
+  def test_number_to_full_month_name()
+    result = number_to_full_month_name( 1 )
     assert_equal( "January", result )
   end
 
   #def test_number_to_full_name__month_3() name doesn't match argument call name
-  def test_number_to_full_month_name_3()
-    result = number_to_full_month_name_3( 3 )
+  def test_number_to_full_month_name()
+    result = number_to_full_month_name( 3 )
     assert_equal( "March", result )
   end
-  #
-  #def test_number_to_full_name__month_9() name doesn't match argument call name
-  def test_number_to_full_month_name_9()
-    result = number_to_full_month_name_9( 9 )
-    assert_equal( "September", result )
-  end
+  # #
+  # #def test_number_to_full_name__month_9() name doesn't match argument call name
+  # def test_number_to_full_month_name()
+  #   result = number_to_full_month_name( 9 )
+  #   assert_equal( "September", result )
+  # end
 
   #def test_substring__month_1()
-  def test_number_to_short_month_name_1()
-    first_month_string = number_to_short_month_name_1( 1 )
-    assert_equal( "Jan", first_month_string )
-  end
-
-  #def test_substring__month_4()
-  def test_number_to_short_month_name_4()
-    fourth_month_string = number_to_short_month_name_4( 4 )
-    assert_equal( "Apr", fourth_month_string )
-  end
-
-  # def test_substring__month_10()
-  def test_number_to_short_month_name_10()
-    tenth_month_string = number_to_short_month_name_10( 10 )
-    assert_equal( "Oct", tenth_month_string )
-  end
+  # def test_number_to_short_month_name_1()
+  #   first_month_string = number_to_short_month_name_1( 1 )
+  #   assert_equal( "Jan", first_month_string )
+  # end
+  #
+  # #def test_substring__month_4()
+  # def test_number_to_short_month_name_4()
+  #   fourth_month_string = number_to_short_month_name_4( 4 )
+  #   assert_equal( "Apr", fourth_month_string )
+  # end
+  #
+  # # def test_substring__month_10()
+  # def test_number_to_short_month_name_10()
+  #   tenth_month_string = number_to_short_month_name_10( 10 )
+  #   assert_equal( "Oct", tenth_month_string )
+  # end
 
   # #Further
   #
-  # #Given the length of a side of a cube calculate the volume
-  def test_volume_of_cube()
-    volume_of_cube_result = volume_of_cube( 2 )
-    assert_equal ( 8, volume_of_cube_result )
-  end
+  # # #Given the length of a side of a cube calculate the volume
+  # def test_volume_of_cube()
+  #   volume_of_cube_result = volume_of_cube( 2 )
+  #   assert_equal ( 8, volume_of_cube_result )
+  # end
   #
   # #Given the radius of a sphere calculate the volume
   # def test_volume_of_sphere()
   #   volume_of_sphere_result = volume_of_sphere(1)
   #   assert_equal ( 4.19, volume_of_sphere_result)
   # end
-  #
-  # #Given a value in farenheit, convert this into celsius.
-  # def test_fahrenheit_to_celsius()
-  #   #add test code here
-  # end
-  #
+  # #
+  # # #Given a value in farenheit, convert this into celsius.
+  # # def test_fahrenheit_to_celsius()
+  # #   #add test code here
+  # # end
+  # #
 
 end
