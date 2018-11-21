@@ -73,7 +73,7 @@ class FunctionsTest < MiniTest::Test
   end
 
   #short month name can be refactored further
-  #def test_substring__month_4()
+  def test_substring__month_4()
   def test_number_to_short_month_name()
     fourth_month_string = number_to_short_month_name( 4 )
     assert_equal( "Apr", fourth_month_string )
@@ -87,11 +87,11 @@ class FunctionsTest < MiniTest::Test
 
   # #Further
   #
-  # # #Given the length of a side of a cube calculate the volume
-  # def test_cube_volume()
-  #   cube_volume_result = cube_volume( 2 )
-  #   assert_equal ( 8, cube_volume_result )
-  # end
+  #Given the length of a side of a cube calculate the volume
+  def test_cube_volume()
+    cube_volume_result = cube_volume( 2 )
+    assert_equal (8,cube_volume_result )
+  end
   #
   # #Given the radius of a sphere calculate the volume
   # def test_volume_of_sphere()

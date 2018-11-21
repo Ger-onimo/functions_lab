@@ -59,11 +59,11 @@ case shrt_month
   end
 end
 
-# #Further
-#
-# def cube_volume(length_of_side)
-#   return length_of_side ** 3
-# end
+#Further
+
+def cube_volume(length_of_side)
+  return length_of_side ** 3
+end
 
 # def volume_of_sphere(radius)
 #   calc = radius
