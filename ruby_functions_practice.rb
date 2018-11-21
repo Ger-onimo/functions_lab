@@ -31,6 +31,7 @@ def add_string_as_number(string_1, string_2)
 end
 
 # can be refactored to include all months or a date method - couldn't get that to work!
+# Date::MONTHNAMES[]
 def number_to_full_month_name(month_num)
 month = month_num
 case month
@@ -44,19 +45,23 @@ case month
 end
 
 # can be refactored to include all months or a date method - couldn't get that to work!
+# Date::ABBR_MONTHNAMES[]
+
 def number_to_short_month_name(month_num)
 shrt_month = month_num
 case shrt_month
   when 1
-   return "Jan"
+    return "Jan"
+  when 4
+    return "Apr"
  when 10
    return "Oct"
   end
 end
-#
+
 # #Further
 #
-# def volume_of_cube(length_of_side)
+# def cube_volume(length_of_side)
 #   return length_of_side ** 3
 # end
 
